@@ -1,30 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0, shrink-to-fit-no" name="viewport">
 
-		<meta charset="utf-8">
-		<meta content="widht=device-with, initial-scale=-1,shrink-to-fit-no" name="viewport">
+	<title>Exemplo de Bootsrap</title>
 
-	<title>Exemplo de Bootstrap</title>
-    
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-
 </head>
 <body>
-    <!barra de navegaçao-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark!">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler"type="button" data-toggle="collage" data-target="navbarsExampleDefault"arial-contorls="navbarsExampleDefaults"arial-expanded="false" arial-label="toggle navigation">
-    <span class="navbar-toggler-icon"></span> 
-    </button>
+    <!--barra de navegação-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="index.html">AfonsoVSM</a>
+        <button class="navbar-toggler"type="button"data-toogle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"aria-expanded="false" aria-label="Toogle navigation">
+        <span class="navbar-tooggler-icon"></span>
+        </button>
         
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <div class="collapse navbar-collapse"id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-            <a class="nav-link" href="#">home <span class="sr-only">(atual)</span></a>
+            <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(atual)</span>
+                </a>
             </li>
-            <li class="nav-item"></li>
+            <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
-            <a class="nav-link disable" href="#">Desativado</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link disabled" href="#">Desativado</a>
+            </li>
+            <li class="nav-item dropdown">
+                
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">Item</a>
+                 <a class="dropdown-item" href="#">Outro item</a>
+                <a class="dropdown-item" href="#">Algum outro item</a>
+                </div>
+            </li>
             </ul>
-            <li class="nav-item dropdown"></li>
+    
+        </div>
+    </nav>
+    
+    <main role="main">
+        
+    <div class="jumbotron">
+        <div class="container">
+             <div class="text-center">
+        <h1 class="display-3">Especialista na criação de sites</h1>
+            
+        <p>Lojas online & Marketing digital</p>
+            <p><a class="btn btn-primary btn-ig" href="sm.html"role="button">Saiba mais&raquo;</a> </p>
+              <br>
+                 <br>
+        </div>
+        </div>
+        </div>
+        
+       
+         <div class="text-center">
+        <div class="cointaner"></div>
+        <div class="row">
+        <div class="col-md-4">
+            <h2>CRIAÇÃO DE SITES</h2>
+            <p>Pretende criar um site com qualidade e criatividade. Criamos sites que potenciam negocios</p>
+            <p><a class="btn btn-secondary" href="pagina1.html"role="button">Ver detalhes&raquo;</a></p>
+            <img src="img1.gif" class="img-fluid" alt="Imagem responsiva">
+            </div>
+            <div class="col-md-4">
+            <h2>MARKETING DIGITAL</h2>
+                <p>Destaque o seu site com camapnhas de marketing digital no Google e no Facebook.</p>
+                <p><a class="btn btn-secondary" href="pagina2.html"role="button">Ver detalhes&raquo;</a></p>
+                <img src="img2.gif" class="img-fluid" alt="Imagem responsiva">
+            </div>
+            <div class="col-md-4">
+            <h2>DESIGN</h2>
+                <p>Uma imagem criativa permite potenciar e diferenciar o seu negocio. Criamos logotipos que marcam</p>
+                <p><a class="btn btn-secondary" href="pagina3.html"role="button">Ver detalhes&raquo;</a></p>
+                <img src="img3.gif" class="img-fluid" alt="Imagem responsiva">
+ 
+            </div>
+        </div>
+        </div>
+        <hr>
+
+    
+       
+      <br>
+        </main>
+     <div class="text-center">
+        <footer class="container">
+        <p>&copy;Companhia GPSI 2020-2021</p>
+        </footer>
+    </div>
+    
+    
+    <script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+    </body>
+</html>
